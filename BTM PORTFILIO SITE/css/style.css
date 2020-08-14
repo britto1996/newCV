@@ -1,0 +1,148 @@
+body{
+    font-family: "Arial, Helvetica, sans-serif";
+}
+.main-container{
+    width: 100%;
+}
+.flex-container{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    height: 100px;
+}
+.flex-container a:hover{
+    color: red;
+    }
+.flex-container a:active{
+    background-color: white;
+}
+.menu {
+    color: white;
+    padding: 40px;
+    cursor: pointer;
+}
+.main-container img{
+    opacity: 0.5;
+}
+.image-container #heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 300%;
+
+}
+.image-container #sub-heading{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120%;
+    color:black;
+
+}
+.learn-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    height: 500px;
+    margin-left: auto;
+
+}
+.text-container{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+#image{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    flex-direction: row;
+    padding: 20px;
+}
+.text-container{
+    width: 100%;
+    margin-top: 120px;
+    font-weight: bold;
+    justify-content: left;
+    font-size: 20px;
+    margin-right: 250px;
+    color: white;
+}
+.learn-header{
+    margin-top: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px;
+    color: white;
+}
+.learn-color{
+    width: 100%;
+    background-color: #263238;
+    height: 490px;
+}
+.portfilio-header{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+#portfilio-photos{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.image-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+#description{
+    margin-top: 20px;
+}
+.card{
+    transition: 0.3s;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.client-color{
+    background-color: #e3f2fd ;
+    height: 900px;
+}
+hr{
+    width: 50%;
+}
+.owner-main{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+.owner-name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.owner-founder{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px;
+}
+span{
+    color: blue;
+}
+#founder{
+    opacity: 0.8;
+    width: 500px;
+    margin-top: 5px;
+}
